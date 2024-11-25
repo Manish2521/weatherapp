@@ -14,7 +14,7 @@ const API_KEY = process.env.OPENWEATHER_API_KEY;
 // Middleware
 app.use(bodyParser.json()); 
 app.use(cors({
-  origin: ['https://weatherapp.netlify.app', 'http://localhost:5173'], 
+  origin: ['https://weatherapp10y7.netlify.app', 'http://localhost:5173'], 
   credentials: true, 
 }));
 app.use(cookieParser()); 
