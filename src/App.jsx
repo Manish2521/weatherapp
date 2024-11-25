@@ -11,7 +11,7 @@ const App = () => {
     setWeather(null);
 
     try {
-      const response = await fetch(`http://localhost:5000/weather?city=${city}`);
+      const response = await fetch(`https://weatherapp-hxvr.onrender.com/weather?city=${city}`);
       const data = await response.json();
 
       if (response.ok) {
